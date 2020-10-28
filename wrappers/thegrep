@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ -z "$1" ]
+then
+    echo "At least one argument must be passed to thegrep!" >&2
+    exit 1
+fi
+
+thepipe grep "$@"

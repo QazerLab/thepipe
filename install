@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+install target/release/thepipe /usr/bin/thepipe
+install wrappers/thegrep /usr/bin/thegrep

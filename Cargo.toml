@@ -1,0 +1,7 @@
+[package]
+name = "thepipe"
+version = "0.1.0"
+authors = ["Danila Kiver <danila.kiver@mail.ru>"]
+edition = "2018"
+
+[dependencies]
